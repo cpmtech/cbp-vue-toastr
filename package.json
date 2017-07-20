@@ -1,6 +1,6 @@
 {
     "name": "cbp-vue-toastr",
-    "version": "2.0.8",
+    "version": "0.1.0",
     "description": "Toastr for Vue.js no jquery dependencies",
     "main": "./dist/vue-toastr.min.js",
     "dependencies": {},
@@ -37,7 +37,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/s4l1h/vue-toastr.git"
+        "url": "git+https://github.com/voogryk/cbp-vue-toastr.git"
     },
     "keywords": [
         "vuejs",
@@ -48,7 +48,7 @@
     "author": "Nos_Anton (ChokeBerryPie.Studio)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/s4l1h/vue-toastr/issues"
+        "url": "https://github.com/voogryk/cbp-vue-toastr/issues"
     },
-    "homepage": "https://github.com/s4l1h/vue-toastr#readme"
+    "homepage": "https://github.com/voogryk/cbp-vue-toastr#readme"
 }

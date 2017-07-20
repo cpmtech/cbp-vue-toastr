@@ -1,40 +1,25 @@
-# vue-toastr
+# cbp-vue-toastr
 
-> This is master branch vue-toastr which works only with **Vue 2.x**. vue-toastr@**latest**
-
-> For the **Vue 1.x** see the [1.0 branch](https://github.com/s4l1h/vue-toastr/tree/1.0). vue-toastr@**1.0.4**
-
-
-**Note:**:closeOnHover,onMouseOver,onMouseOut works only **2.x**
-
+> This is master branch cbp-vue-toastr which works only with **Vue 2.x**. cbp-vue-toastr@**latest**
 
 ### With npm & babel
 
-*Add the Toast into the package.json. #for vue **1.x***
-
-    npm install vue-toastr@^1.0.4 --save
-
-
 *Add the Toast into the package.json. #for vue **2.x***
 
-    npm install vue-toastr@^latest --save
+    npm install cbp-vue-toastr --save
 
 *Add the toast in application and register component.*
 
     // import Toastr
-    import Toastr from 'vue-toastr';
+    import Toastr from 'cbp-vue-toastr';
     // import toastr less file: need webpack less-loader
-    require('vue-toastr/src/vue-toastr.less');
+    require('cbp-vue-toastr/src/vue-toastr.less');
     // Register vue component
-    Vue.component('vue-toastr',Toastr);
-
-*Add component html: for vue **1.x***
-
-    <vue-toastr v-ref:toastr></vue-toastr>
+    Vue.component('cbp-vue-toastr',Toastr);
 
 *Add component html: for vue **2.x***
 
-    <vue-toastr ref="toastr"></vue-toastr>
+    <vue-toastr ref="toastr"></cbp-vue-toastr>
 
 *Now you can manage toastr* 
 
@@ -43,7 +28,7 @@
 
 ### without npm
 
-http://s4l1h.github.io/vue-toastr/
+https://github.com/voogryk/cbp-vue-toastr
 
 ### Development Setup
 
@@ -142,15 +127,3 @@ this.$root.$refs.toastr.Add({
         onMouseOut: On mouse over toast event can be function
 }
 ```
-
-### Note:
-Pls for more details and example: 
-https://github.com/s4l1h/vue-toastr/blob/master/demo.js
-
-
-Toastr for Vue.js no jquery dependencies https://github.com/s4l1h/vue-toastr
-
-Demo: http://s4l1h.github.io/vue-toastr/
-
-
-Ported From Jquery Toastr : http://codeseven.github.io/toastr/
