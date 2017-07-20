@@ -19,7 +19,7 @@
 
 *Add component html: for vue **2.x***
 
-    <vue-toastr ref="toastr"></cbp-vue-toastr>
+    <cbp-vue-toastr ref="toastr"></cbp-vue-toastr>
 
 *Now you can manage toastr* 
 
